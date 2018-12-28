@@ -1,0 +1,210 @@
+body {
+    background-color: #f8f8f8;
+}
+
+h2 {
+    font-size: 2.4rem;
+    line-height: 3rem;
+}
+
+h2 span {
+    font-size: 3.5rem;
+    color: #e082a8;
+}
+
+h3 {
+    font-size: 2.5rem;
+    line-height: 2.3rem;
+}
+
+h3 span {
+    font-size: 2.2rem;
+    color: #e082a8;
+}
+
+.nuevo-sitio p {
+    color: #979797;
+    font-size: 1.6rem;
+}
+
+.encabezado img {
+    width: 220px;
+}
+
+/** Sociales **/
+.sociales ul {
+    list-style: none;
+    margin:0;
+    padding:0;
+}
+.sociales ul li {
+    position: relative;
+    display: inline-block;
+}
+.sociales ul li a::before {
+    font-family: 'FontAwesome';
+    display: inline-block;
+    vertical-align: top;
+    padding: 0.4rem;
+    content: '\f08e';
+    -webkit-font-smoothing: antialiased;
+    font-size: 2rem;
+    color: #e082a8;
+}
+.sociales ul li a[href*="facebook.com"]::before{
+    content: '\f230';
+}
+.sociales ul li a[href*="twitter.com"]::before{
+    content: '\f081';
+}
+.sociales ul li a[href*="instagram.com"]::before{
+    content: '\f16d';
+}
+.sociales ul li a[href*="pinterest.com"]::before{
+    content: '\f0d2';
+}
+.sociales ul li a[href*="youtube.com"]::before{
+    content: '\f16a';
+}
+
+/** Navegacion **/
+
+.navegacion {
+    background: #8ed3cc;
+}
+
+.navbar-light .navbar-toggler,
+.navbar-light .navbar-toggler:hover {
+    background: #fff;
+}
+
+.navbar-light .navbar-brand {
+    color: #fff;
+}
+
+.navegacion-principal {
+    background-image: url(../img/border_horizontal.png),
+                      url(../img/border_horizontal.png);
+    background-repeat: repeat-x;
+    background-position: 0px top, 0px bottom;
+}
+
+.nav-link {
+    color: #fff;
+    font-size: 1.4rem;
+}
+
+.nav-link {
+    padding: 0 1rem;
+}
+
+/* Servicios */
+
+.imagen-servicio img {
+    border: 6px solid 3fff;
+    -webkit-transition: transform .3s ease;
+    -ms-transition: transform .3s ease;
+    transition: transform .3s ease;
+}
+
+.imagen-servicio img:hover {
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.servicio-info {
+    background-color: #fff;
+    margin-top: -5rem;
+}
+
+.boton-servicio {
+    background: #e082a8;
+    border: none;
+    border-radius: 0;
+}
+
+.boton-servicio:hover {
+    background: #da4782;   
+}
+
+.horario .table {
+    border: 2px solid #e082a8;
+}
+
+.horario .table td,
+.horario .table thead th {
+    border: none;
+}
+
+table thead {
+    background: #e082a8;
+    color: #fff;
+}
+
+table tbody {
+    color: #fff;
+}
+
+.horario {
+    background: #8ed3cc;
+}
+
+.horario h2 {
+    color: #fff;
+    font-size: 2.2rem;
+}
+
+.horario p {
+    color: #fff;  
+}
+
+.bg-horario {
+    background-image: url(../img/bg_horarios.jpg);
+    background-size: cover;
+    min-height: 400px;
+}
+.productos a {
+    text-decoration: none;
+}
+
+.productos h3 {
+    color: #e082a8;
+    font-size: 1.7rem;
+}
+
+.productos p {
+    color: #979797;
+}
+
+.productos .precio {
+    font-size: 1.7rem;
+}
+
+.citas {
+    background-image: url(../img/bg_citas.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #fff;
+}
+
+.citas .cita-btn {
+    background: #29d6c5;
+    border-radius: 0;
+    border: none;
+}
+
+.citas .cita-btn:hover {
+    border: none; 
+}
+
+@media (min-width: 920px) {
+    .citas {
+        background-size: cover;
+    }
+}
+
+.footer-sitio .copy {
+    background: #e7e7e7;
+    margin: 0;
+}
